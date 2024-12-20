@@ -15,7 +15,7 @@ data class Number(
 fun fizzBuzz(n: Int): FizzBuzzResult =
     when {
         n % 15 == 0 -> FizzBuzz
-        n % 3 ==  0 -> Fizz
-        n % 5 ==  0 -> Buzz
+        n % 3 == 0 -> Fizz
+        n % 5 == 0 -> Buzz
         else -> Number(n)
     }
